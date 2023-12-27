@@ -1,9 +1,10 @@
-#include<stdio.h>
-int main()
-{
-    printf("Hello World !");
-    printf("\n");
-    printf("Hello World");
+#include <stdio.h>
 
-    return 0 ;
+int main() {
+   char c;
+
+   for (c = 'a'; c <= 'z'; ++c)
+      printf("%c ", c);
+
+   return 0;
 }
